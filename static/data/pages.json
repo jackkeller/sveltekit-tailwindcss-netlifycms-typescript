@@ -1,0 +1,13 @@
+{
+	"pages": [
+		{
+			"enabled": true,
+			"title": "About Us",
+			"date": "2021-12-03T21:10:09.747Z",
+			"slug": "about",
+			"teaser": "This is the about page",
+			"seo": "Everything you wanted to know about us, and were afraid to ask.",
+			"body": "Here is some **markdown** `formatted` data being parsed and formatted for your enjoyment.\n\nYou do enjoy it, right?\n\n## NEAT"
+		}
+	]
+}

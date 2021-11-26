@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Boogaloo&family=Gochi+Hand&display=swap');
+
+:root {
+  --white: #fff;
+  --white-rgb: 255, 255, 255;
+  --white-darken: #b4b4b4;
+  --black: #272822;
+  --black-rgb: 39, 40, 34;
+  --mint-light: #e4ffe4;
+  --mint-medium: #98ff98;
+  --mint-dark: #617c61;
+  --mint-dark-rgb: 89, 125, 94;
+  --cadet-grey: #8aa1b1;
+  --cadet-grey-rgb: 138, 160, 177;
+  --charcoal: #37505c;
+  --charcoal-rgb: 55, 80, 92;
+
+  --primary-color: var(--cadet-grey);
+  --primary: var(--primary-color);
+  --primary-rgb: 110, 255, 139;
+  --secondary-color: var(--charcoal);
+  --secondary: var(--secondary-color);
+  --secondary-rgb: var(--charcoal-rgb);
+
+  /* --body-bg: linear-gradient(35deg, var(--body-red-light), var(--body-red-dark)); */
+  --body-bg: rgba(var(--cadet-grey-rgb), 0.2);
+  --header-bg: var(--charcoal);
+  --header-text-color: var(--white);
+  --text-color: var(--black);
+  --text-color-negative: var(--black);
+  --link-color: var(--charcoal);
+  --link-color-hover: rgba(var(--charcoal-rgb), 0.8);
+
+  --base-font: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Droid Sans, Helvetica Neue;
+  --logo-font: 'Architects Daughter', cursive;
+  --base-font-size: 62.5%;
+  --base-font-weight: 400;
+  --bold-font-weight: 800;
+  --base-line-height: 1.5;
+  --content-font: 'Muli', var(--base-font), sans-serif;
+  --heading-font: 'Bebas Neue', var(--base-font), sans-serif;
+  --code-font: 'Fira Code', monospace;
+
+  --xs: rem(480);
+  --xs-max: rem(479);
+  --sm: rem(768);
+  --sm-max: rem(767);
+  --md: rem(992);
+  --md-max: rem(991);
+  --lg: rem(1240);
+  --lg-max: rem(1239);
+  --xl: rem(1920);
+
+  --header-height: rem(80);
+  --footer-height: rem(100);
+
+  --transition: 0.2s ease-in-out;
+}
