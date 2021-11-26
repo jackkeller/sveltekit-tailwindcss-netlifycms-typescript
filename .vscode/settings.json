@@ -1,0 +1,7 @@
+{
+	"editor.defaultFormatter": "svelte.svelte-vscode",
+	"svelte.plugin.svelte.format.config.singleQuote": true,
+	"svelte.plugin.svelte.format.config.svelteStrictMode": true,
+	"svelte.plugin.svelte.format.config.svelteSortOrder": "options-scripts-markup-styles",
+	"svelte.plugin.css.globals": "variables.css"
+}

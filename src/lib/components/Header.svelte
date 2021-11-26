@@ -28,7 +28,7 @@
 					<div class="menu" on:click={toggleMenu}>&times;</div>
 				</li>
 				<li>
-					<a class="mobile-only" href="/" on:click={toggleMenu} aria-label="Home">Home</a>
+					<a class="sm:hidden" href="/" on:click={toggleMenu} aria-label="Home">Home</a>
 				</li>
 				{#each pages as page}
 					<li>
@@ -39,11 +39,3 @@
 		</nav>
 	</div>
 </header>
-
-<style>
-	@media screen and (min-width: 768px) {
-		.mobile-only {
-			display: none;
-		}
-	}
-</style>
