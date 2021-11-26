@@ -1,137 +1,137 @@
 body {
-  background: var(--body-bg);
-  color: var(--text-color);
-  grid-template-areas: 'header' 'main' 'footer';
-  grid-template-rows: rem(80) auto rem(100);
-  font-family: var(--content-font);
-  font-size: 18px;
-  line-height: 1.5;
-  min-height: 100vh;
+	background: var(--body-bg);
+	color: var(--text-color);
+	grid-template-areas: 'header' 'main' 'footer';
+	grid-template-rows: rem(80) auto rem(100);
+	font-family: var(--content-font);
+	font-size: 18px;
+	line-height: 1.5;
+	min-height: 100vh;
 
-  .container {
-    margin: 0 auto;
-    max-width: 96%;
-    width: 100%;
+	.container {
+		margin: 0 auto;
+		max-width: 96%;
+		width: 100%;
 
-    @media screen and (min-width: 768px) {
-      width: 748px;
-    }
+		@media screen and (min-width: 768px) {
+			width: 748px;
+		}
 
-    @media screen and (min-width: 992px) {
-      width: 972px;
-    }
+		@media screen and (min-width: 992px) {
+			width: 972px;
+		}
 
-    @media screen and (min-width: 1240px) {
-      width: 1220px;
-    }
-  }
+		@media screen and (min-width: 1240px) {
+			width: 1220px;
+		}
+	}
 
-  section {
-    padding: rem(48) rem(20);
+	section {
+		padding: rem(48) rem(20);
 
-    h2,
-    h3 {
-      margin-bottom: rem(8);
-    }
+		h2,
+		h3 {
+			margin-bottom: rem(8);
+		}
 
-    p,
-    ul {
-      margin-bottom: rem(24);
-    }
-  }
+		p,
+		ul {
+			margin-bottom: rem(24);
+		}
+	}
 
-  header {
-    grid-area: header;
-  }
+	header {
+		grid-area: header;
+	}
 
-  main {
-    grid-area: main;
-    grid-template-areas: 'hero' 'content' 'posts';
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto 1fr;
-    min-height: calc(100vh - 180px);
-  }
+	main {
+		grid-area: main;
+		grid-template-areas: 'hero' 'content' 'posts';
+		grid-template-columns: 1fr;
+		grid-template-rows: auto auto 1fr;
+		min-height: calc(100vh - 180px);
+	}
 
-  footer {
-    grid-area: footer;
-  }
+	footer {
+		grid-area: footer;
+	}
 
-  small {
-    font-size: rem(13);
-  }
+	small {
+		font-size: rem(13);
+	}
 
-  sup {
-    font-size: rem(12);
-  }
+	sup {
+		font-size: rem(12);
+	}
 }
 
 main {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr auto;
-  grid-template-areas: 'hero' 'content' 'posts';
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr auto;
+	grid-template-areas: 'hero' 'content' 'posts';
 }
 
 .hero {
-  grid-area: hero;
+	grid-area: hero;
 }
 
 .content {
-  grid-area: content;
-  padding: rem(32) 0;
+	grid-area: content;
+	padding: rem(32) 0;
 
-  a,
-  a:visited {
-    color: var(--link-color);
+	a,
+	a:visited {
+		color: var(--link-color);
 
-    &:hover {
-      color: var(--link-color-hover);
-    }
-  }
+		&:hover {
+			color: var(--link-color-hover);
+		}
+	}
 }
 
 .posts {
-  border-top: rem(10) solid rgba(var(--white-rgb), 0.05);
-  grid-area: posts;
+	border-top: rem(10) solid rgba(var(--white-rgb), 0.05);
+	grid-area: posts;
 
-  .post {
-    display: inline-block;
-    margin: rem(20) 0;
-  }
+	.post {
+		display: inline-block;
+		margin: rem(20) 0;
+	}
 
-  a,
-  a:link,
-  a:visited {
-    color: var(--white);
-    text-decoration: none;
-  }
+	a,
+	a:link,
+	a:visited {
+		color: var(--white);
+		text-decoration: none;
+	}
 
-  h4 {
-    text-decoration: underline;
-    text-decoration-color: rgba(var(--white-rgb), 0.25);
-    transition: all var(--transition);
-  }
+	h4 {
+		text-decoration: underline;
+		text-decoration-color: rgba(var(--white-rgb), 0.25);
+		transition: all var(--transition);
+	}
 
-  a:hover h4 {
-    color: var(--white-darken);
-    text-decoration-color: rgba(var(--white-rgb), 0.8);
-  }
+	a:hover h4 {
+		color: var(--white-darken);
+		text-decoration-color: rgba(var(--white-rgb), 0.8);
+	}
 }
 
 footer {
-  @apply flex items-center bg-black text-white text-center;
+	@apply flex items-center bg-black text-white text-center;
 
-  br {
-    display: none;
+	br {
+		display: none;
 
-    @media screen and (max-width: var(--sm) - 1) {
-      display: block;
-    }
-  }
+		@media screen and (max-width: var(--sm) - 1) {
+			display: block;
+		}
+	}
 
-  span:not(#year) {
-    @media screen and (max-width: var(--sm) - 1) {
-      display: none;
-    }
-  }
+	span:not(#year) {
+		@media screen and (max-width: var(--sm) - 1) {
+			display: none;
+		}
+	}
 }

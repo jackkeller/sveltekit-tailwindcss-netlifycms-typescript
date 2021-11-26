@@ -1,72 +1,72 @@
 .hero {
-  align-items: center;
-  background: linear-gradient(75deg, rgba(var(--black-rgb), 0.95), var(--black));
-  display: flex;
-  height: rem(400);
-  justify-content: center;
-  overflow: hidden;
-  position: relative;
+	align-items: center;
+	background: linear-gradient(75deg, rgba(var(--black-rgb), 0.95), var(--black));
+	display: flex;
+	height: rem(400);
+	justify-content: center;
+	overflow: hidden;
+	position: relative;
 
-  .callout {
-    padding: 0 rem(20);
+	.callout {
+		padding: 0 rem(20);
 
-    @media screen and (min-width: var(--sm)) {
-      padding: 0;
-    }
-  }
+		@media screen and (min-width: var(--sm)) {
+			padding: 0;
+		}
+	}
 
-  h1,
-  blockquote {
-    color: var(--white);
-    z-index: 10;
-  }
+	h1,
+	blockquote {
+		color: var(--white);
+		z-index: 10;
+	}
 
-  time {
-    padding: rem(10);
-  }
+	time {
+		padding: rem(10);
+	}
 
-  h1 {
-    color: rgba(var(--white-rgb), 0.65);
-    font-family: var(--heading-font);
-    font-size: rem(28);
-    line-height: 1;
-  }
+	h1 {
+		color: rgba(var(--white-rgb), 0.65);
+		font-family: var(--heading-font);
+		font-size: rem(28);
+		line-height: 1;
+	}
 
-  blockquote {
-    background: rgba(var(--white-rgb), 0.2);
-    border-left: rem(5) solid var(--white);
-    border-radius: 0 rem(5) rem(5) 0;
-    margin-bottom: rem(16);
-    margin-left: rem(8);
-    margin-top: rem(24);
-    max-width: rem(500);
-    padding: rem(16);
-  }
+	blockquote {
+		background: rgba(var(--white-rgb), 0.2);
+		border-left: rem(5) solid var(--white);
+		border-radius: 0 rem(5) rem(5) 0;
+		margin-bottom: rem(16);
+		margin-left: rem(8);
+		margin-top: rem(24);
+		max-width: rem(500);
+		padding: rem(16);
+	}
 
-  p {
-    margin-bottom: 0;
-  }
+	p {
+		margin-bottom: 0;
+	}
 
-  a {
-    color: inherit;
-  }
+	a {
+		color: inherit;
+	}
 }
 
 .code-from-page {
-  color: var(--white);
-  font-family: var(--code-font);
-  font-size: rem(18);
-  line-height: 1.5;
-  margin: 0 auto;
-  opacity: 0.1;
-  pointer-events: none;
-  position: absolute;
-  transform: rotate(3deg);
-  white-space: pre-wrap;
+	color: var(--white);
+	font-family: var(--code-font);
+	font-size: rem(18);
+	line-height: 1.5;
+	margin: 0 auto;
+	opacity: 0.1;
+	pointer-events: none;
+	position: absolute;
+	transform: rotate(3deg);
+	white-space: pre-wrap;
 
-  @media screen and (min-width: var(--sm)) {
-    font-size: rem(28);
-    max-width: 70vw;
-    transform: rotate(6deg);
-  }
+	@media screen and (min-width: var(--sm)) {
+		font-size: rem(28);
+		max-width: 70vw;
+		transform: rotate(6deg);
+	}
 }
