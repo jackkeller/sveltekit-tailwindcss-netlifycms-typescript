@@ -13,12 +13,7 @@ const config = {
 				transparent: 'transparent',
 				primary: 'var(--primary)',
 				secondary: 'var(--secondary)',
-				black: 'var(--black)',
-				'mint-light': 'var(--mint-light)',
-				'mint-medium': 'var(--mint-medium)',
-				'mint-dark': 'var(--mint-dark)',
-				'cadet-grey': 'var(--cadet-grey)',
-				charcoal: 'var(--charcoal)'
+				black: 'var(--black)'
 			}
 		}
 	},
