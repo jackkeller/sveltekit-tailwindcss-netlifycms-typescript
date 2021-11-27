@@ -26,6 +26,7 @@
 
 <svelte:head>
 	<title>{page.title} {vars.title}</title>
+	<meta name="keywords" content={page.keywords} />
 	<meta name="description" content={page.seo} />
 </svelte:head>
 

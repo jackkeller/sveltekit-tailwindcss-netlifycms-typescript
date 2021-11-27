@@ -3,10 +3,10 @@
 	--white-rgb: 255, 255, 255;
 	--black: #272822;
 	--black-rgb: 39, 40, 34;
-  --dark-candy-apple-red: #a40000;
-  --dark-candy-apple-red-rgb: 164, 0, 0;
-  --cavern-pink: #e8bfbf;
-  --cavern-pink-rgb: 232, 191, 191;
+	--dark-candy-apple-red: #a40000;
+	--dark-candy-apple-red-rgb: 164, 0, 0;
+	--cavern-pink: #e8bfbf;
+	--cavern-pink-rgb: 232, 191, 191;
 
 	--primary-color: var(--cavern-pink);
 	--primary: var(--primary-color);

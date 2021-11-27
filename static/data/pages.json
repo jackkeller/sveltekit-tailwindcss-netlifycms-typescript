@@ -2,12 +2,22 @@
 	"pages": [
 		{
 			"enabled": true,
-			"title": "About Us",
+			"title": "Documentation",
+			"slug": "docs",
+			"teaser": "Here's a page for documentation on how to best leverage this Sveltekit starter",
+			"seo": "Documentation for https://github.com/jackkeller/sveltekit-tailwindcss-netlifycms-typescript setup, usage, and anything really.",
+			"body": "### Getting Down to Business\n\n---\n",
+			"keywords": "sveltekit, tailwindcss, netlify cms, typescript, tacos"
+		},
+		{
+			"enabled": true,
+			"title": "About",
 			"date": "2021-12-03T21:10:09.747Z",
 			"slug": "about",
 			"teaser": "This is the about page",
 			"seo": "Everything you wanted to know about us, and were afraid to ask.",
-			"body": "Here is some **markdown** `formatted` data being parsed and formatted for your enjoyment.\n\nYou do enjoy it, right?\n\n## NEAT"
+			"body": "Why does this exist when there are literally hundreds of similar starters out there? Easy, I wanted one that I didn't have to doctor up too much to hit the ground running, we all love to get rolling quickly and efficiently right?\n\nEnjoy as is, or head over to [github.com/jackkeller/sveltekit-tailwindcss-netlifycms-typescript](https://github.com/jackkeller/sveltekit-tailwindcss-netlifycms-typescript) so you can fork and edit to fit your needs, you won't hurt my feelings one bit.",
+			"keywords": "sveltekit, tailwindcss, netlify cms, typescript, coffee and code"
 		}
 	]
 }

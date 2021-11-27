@@ -34,6 +34,7 @@ collections: # A list of collections the CMS should be able to edit
               - { label: Enabled, name: enabled, widget: boolean, default: true }
               - { label: Page Slug, name: slug, widget: string }
               - { label: Teaser, name: teaser, widget: text }
+              - { label: Keywords, name: keywords, widget: text, default: 'sveltekit, tailwindcss, netlify cms, typescript' }
               - { label: SEO, name: seo, widget: text }
               - { label: Body, name: body, widget: markdown }
               - label: Hero Image
