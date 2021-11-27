@@ -12,6 +12,8 @@
 	const pageQuery = fetchData(vars.pagesEndpoint).then((data) => {
 		pages = data.pages.filter((page) => page.enabled === true);
 	});
+
+  pageQuery()
 </script>
 
 <header>
