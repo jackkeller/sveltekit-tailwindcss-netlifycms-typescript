@@ -20,7 +20,7 @@
 			}
 		})
 		.catch((error) => {
-			console.error(error);
+			console.error('pageQuery:', error);
 		});
 </script>
 
